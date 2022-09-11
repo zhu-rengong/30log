@@ -1,5 +1,5 @@
 require 'luacov'
-local class = require('30log')
+local class = require('30log-clean')
 
 context('Instantiation', function()
 	local Window, win1, win2, win3

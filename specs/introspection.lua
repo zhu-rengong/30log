@@ -1,5 +1,5 @@
 require 'luacov'
-local class = require('30log')
+local class = require('30log-clean')
 
 local function revert_and_count(t)
 	local _t, n = {}, 0

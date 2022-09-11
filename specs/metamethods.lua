@@ -1,5 +1,5 @@
 require 'luacov'
-local class = require('30log')
+local class = require('30log-clean')
 local has_lua_5_2_support = (rawlen and type(rawlen) == 'function')
 local has_lua_5_3_support = (string.unpack and type(string.unpack) == 'function')
 

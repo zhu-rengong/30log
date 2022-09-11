@@ -1,7 +1,7 @@
 -- 30log-commons.lua, Interface for Class-Commons, (c) 2012 TsT2005
 -- Class-Commons <https://github.com/bartbes/Class-Commons>
 
-local class = require('30log')
+local class = require('30log-clean')
 
 return {
 	class = function(name, prototype, parent)

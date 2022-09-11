@@ -1,5 +1,5 @@
 require 'luacov'
-local class = require('30log')
+local class = require('30log-clean')
 
 context(':cast() method', function()
 	
